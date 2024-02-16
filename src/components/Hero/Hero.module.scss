@@ -1,0 +1,26 @@
+@import "../../styles/base";
+
+.root {
+    text-align: center;
+    margin-top: toRem(120);
+
+    h1 {
+        font-size: toRem(48);
+    }
+
+    h3 {
+        font-size: toRem(23);
+        margin-top: toEm(16);
+        color: $secondary;
+    }
+
+    .happy_dev {
+        margin-top: toEm(48);
+    }
+
+    .dev_setup {
+        width: toRem(860);
+        height: toRem(349);
+        margin-top: toEm(48);
+    }
+}

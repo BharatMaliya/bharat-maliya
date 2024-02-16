@@ -1,0 +1,26 @@
+@import "../../styles/base";
+
+.root {
+    @include container;
+    margin-top: toEm(120);
+
+    h1 {
+        font-size: toRem(32);
+    }
+
+    &Experiances {
+        @include display-flex-space;
+
+        &Experiance {
+            img {
+                width: toRem(180);
+                height: toRem(80);
+                object-fit: contain;
+            }
+
+            &Detail {
+
+            }
+        }
+    }
+}

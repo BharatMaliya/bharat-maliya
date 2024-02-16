@@ -1,0 +1,131 @@
+@import "base";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: $primary;
+    overflow-x: hidden;
+    background: $white-100;
+    -webkit-overflow-scrolling: touch;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#__next,
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    -ms-text-size-adjust: none;
+    outline: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+input {
+    line-height: normal;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    color: $white-100;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    appearance: none;
+    border: none;
+}
+
+button {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    text-align: left;
+}
+
+::-moz-focus-inner {
+    border: none;
+    outline: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+input:disabled,
+input:focus,
+input:hover,
+textarea:disabled {
+    background: inherit;
+}
+
+::-webkit-input-placeholder {
+    color: $white-100;
+    font-size: inherit;
+}
+
+::-ms-placeholder {
+    color: $white-100;
+    font-size: inherit;
+}
+
+$small-screen: 1024px;
+$medium-screen: 1181px;
+$large-screen: 1520px;
+
+@media (min-width: $small-screen) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (min-width: $medium-screen) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (min-width: $large-screen) {
+    html {
+        font-size: 100%;
+    }
+}
