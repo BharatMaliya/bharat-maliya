@@ -1,0 +1,58 @@
+@import "../../styles/base";
+
+.root {
+    margin-top: toRem(180);
+
+    &Top {
+        margin-top: toRem(-8);
+        background: $background-blue;
+        width: 100%;
+        height: toRem(612);
+
+        &TexBox {
+            text-align: center;
+            padding-top: toEm(100);
+            color: $white-100;
+
+            h1 {
+                font-size: toRem(32);
+            }
+
+            p {
+                font-size: toRem(20);
+                max-width: toRem(796);
+                margin: toEm(24) auto;
+            }
+        }
+
+    }
+
+    &Bottom {
+        @include container;
+        background: $white-100;
+        border-radius: toEm(12);
+        margin-top: toEm(-220);
+        padding: toEm(24);
+        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+
+        h2 {
+            font-size: toRem(32);
+        }
+
+        &Projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: toEm(24);
+            gap: toEm(18);
+
+            &Project {
+                border-right: 1px solid $border;
+                padding: toEm(12);
+
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+$font-family: var(--font-family);
+
+$base-font-size-numeric: 16;
+$base-font-size: #{$base-font-size-numeric}px;
+$base-line-height: 1.2;
+
+@function toRem($value) {
+    $remValue: ($value / $base-font-size-numeric) + rem;
+    @return $remValue;
+}
+
+@function toEm($value, $context: $base-font-size-numeric) {
+    $emValue: ($value / $context) + em;
+    @return $emValue;
+}
+
+@mixin title-text() {
+    font-weight: 700;
+    font-size: toRem(30);
+    line-height: toRem(40);
+    letter-spacing: 0.14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin h1-text() {
+    font-weight: 700;
+    font-size: toRem(20);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin h2-text() {
+    font-weight: 500;
+    font-size: toRem(14);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin h3-text() {
+    font-weight: 600;
+    font-size: toRem(24);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin h4-text {
+    font-weight: 500;
+    font-size: toRem(20);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin d1-text() {
+    font-weight: 400;
+    font-size: toRem(14);
+    line-height: toRem(22);
+    letter-spacing: 0.14px;
+}
+
+@mixin d2-text() {
+    font-weight: 400;
+    font-size: toRem(18);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin d3-text() {
+    font-weight: 400;
+    font-size: toRem(16);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin th-text() {
+    font-weight: 500;
+    font-size: toRem(18);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
+
+@mixin td-text() {
+    font-weight: 400;
+    font-size: toRem(18);
+    line-height: toRem(30);
+    letter-spacing: 0.14px;
+}
+
+@mixin button-text() {
+    font-weight: 500;
+    font-size: toRem(16);
+    line-height: toRem(20);
+    letter-spacing: 0.14px;
+}
