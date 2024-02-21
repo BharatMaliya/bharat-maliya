@@ -1,26 +1,41 @@
 @import "../../styles/base";
 
 .root {
-    @include container;
-    margin-top: toEm(120);
+  @include container;
+  margin-top: toEm(120);
 
-    h1 {
-        font-size: toRem(32);
-    }
+  h1 {
+    font-size: toRem(32);
+    margin-bottom: toRem(20);
+  }
 
-    &Experiances {
-        @include display-flex-space;
+  &Experiances {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 
-        &Experiance {
-            img {
-                width: toRem(180);
-                height: toRem(80);
-                object-fit: contain;
-            }
+    &Experiance {
+      img {
+        width: toRem(100);
+        height: toRem(60);
+        object-fit: contain;
+      }
 
-            &Detail {
-
-            }
+      &Detail {
+        h3 {
+          margin-bottom: toRem(16);
         }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: toRem(8);
+
+          li {
+            list-style: disc;
+          }
+        }
+      }
     }
+  }
 }

@@ -1,0 +1,85 @@
+@import '../../styles/base.scss';
+
+.footer {
+  background-color: $background-blue;
+  height: toRem(600);
+  margin-top: toRem(200);
+  position: relative;
+  padding-top: toRem(150);
+
+  &Top {
+    @include container;
+
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: toRem(50) toRem(35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $dark-blue;
+    border-radius: toRem(12);
+    color: $white-100;
+    text-align: center;
+  }
+
+  &Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: toRem(32);
+
+    &Logo {
+      width: toRem(100);
+      height: toRem(100);
+      border-radius: 100%;
+    }
+
+    h2, h3 {
+      color: $white-100;
+      opacity: 0.8;
+    }
+
+    &Socials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: toRem(24);
+
+      a {
+        height: toRem(52);
+        width: toRem(52);
+        border-radius: 100%;
+        border: 2px solid $lavender;
+        padding: toRem(12);
+        cursor: pointer;
+        transition: 0.3s;
+
+        svg {
+          height: toRem(24);
+          width: toRem(24);
+
+          path {
+            fill: $white-100;
+            transition: 0.3s;
+          }
+        }
+
+        &:hover {
+          border-color: $white-100;
+          background-color: $white-100;
+
+          svg {
+            path {
+              fill: $background-blue;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

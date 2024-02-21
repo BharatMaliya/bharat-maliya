@@ -1,0 +1,23 @@
+@import '../../styles/base';
+
+.root {
+  text-align: center;
+  margin-top: toEm(120);
+
+  h2 {
+    font-size: toRem(26);
+    margin-bottom: toRem(18);
+  }
+
+  h3 {
+    font-size: toRem(20);
+    color: #141C3A;
+    font-weight: 400;
+  }
+
+  &Btn {
+    justify-content: center;
+    margin: toRem(24) auto;
+
+  }
+}

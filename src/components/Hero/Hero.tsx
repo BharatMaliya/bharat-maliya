@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import happy_developer from "../../../public/assets/happy-dev.svg"
 import dev_setup from "../../../public/assets/dev-setup.svg"
+import Link from "next/link";
 
 const Hero = () => {
     return (
@@ -12,7 +13,8 @@ const Hero = () => {
             <h3>I develop masterpieces by code, and I love what I do. </h3>
 
             <div>
-                <Image className={styles.happy_dev} src={happy_developer} alt={'happy_developer'}/>
+                <Link href={'/'}> <Image className={styles.happy_dev} src={happy_developer}
+                                         alt={'happy_developer'}/></Link>
             </div>
             <Image className={styles.dev_setup} src={dev_setup} alt={'dev_setup'}/>
         </section>
