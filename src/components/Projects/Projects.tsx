@@ -53,9 +53,7 @@ const Projects = () => {
                     <h1>Some of my recent work.
                     </h1>
                     <p>
-                        With 4 years of experience, I've worked remotely for agencies, consulted for startups, and
-                        collaborated on digital products. I've interned at Paytm and held positions at Amazon and Meta.
-                        Confident and curious, I'm always improving my skills.
+                        {" With 4 years of experience, I've worked remotely for agencies, consulted for startups, and collaborated on digital products. I've interned at Paytm and held positions at Amazon and Meta. Confident and curious, I'm always improving my skills."}
                     </p>
                 </div>
             </div>

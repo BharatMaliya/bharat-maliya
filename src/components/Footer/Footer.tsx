@@ -19,7 +19,7 @@ const Footer = () => {
                 </h1>
                 <h3>Interested in working together? We should queue up <br/> a time to chat. I’ll buy the coffee.
                 </h3>
-                <Link href={'/contact'}> <Button type={'secondary'} className={''}>Let's do this</Button></Link>
+                <Link href={'/contact'}> <Button type={'secondary'} className={''}>{"Let's do this"}</Button></Link>
             </div>
 
             <div className={styles.footerContent}>
