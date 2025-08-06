@@ -1,126 +1,36 @@
-# Bharat Maliya - Portfolio Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern, responsive portfolio website showcasing Bharat's skills as a Software Developer with 3 years of experience in Python, TypeScript, Django, Next.js, and React.js.
+## Getting Started
 
-## 🚀 Features
+First, run the development server:
 
-- **Modern Design**: Clean, professional design with dark mode support
-- **Responsive Layout**: Optimized for all devices and screen sizes
-- **Smooth Navigation**: Smooth scrolling between sections
-- **SEO Optimized**: Proper meta tags and Open Graph support
-- **Fast Performance**: Built with Next.js 15 and optimized for speed
-- **TypeScript**: Full type safety throughout the application
-- **Tailwind CSS**: Modern utility-first CSS framework
-
-## 🛠 Technologies Used
-
-### Frontend
-- **Next.js 15** - React framework with App Router
-- **React 19** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **Geist Fonts** - Modern typography
-
-### Development Tools
-- **ESLint** - Code linting
-- **Turbopack** - Fast development bundler
-- **PostCSS** - CSS processing
-
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── globals.css      # Global styles with Tailwind
-│   ├── layout.tsx       # Root layout with metadata
-│   └── page.tsx         # Home page with portfolio sections
-├── components/
-│   └── SmoothScroll.tsx # Smooth scrolling component
-└── public/
-    └── resume/          # Resume PDF file
-```
-
-## 🎨 Sections
-
-1. **Hero Section** - Introduction and call-to-action
-2. **About Section** - Personal background and experience highlights
-3. **Skills Section** - Technical skills with progress indicators
-4. **Experience Section** - Work history and achievements
-5. **Projects Section** - Featured projects with technology tags
-6. **Contact Section** - Contact information and social links
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm or pnpm
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd bharat-maliya
-```
-
-2. Install dependencies:
-```bash
-npm install
-# or
-pnpm install
-```
-
-3. Run the development server:
 ```bash
 npm run dev
 # or
+yarn dev
+# or
 pnpm dev
+# or
+bun dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📝 Available Scripts
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- `npm run dev` - Start development server with Turbopack
-- `npm run build` - Create production build
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🎯 Key Features
+## Learn More
 
-### Responsive Design
-- Mobile-first approach
-- Optimized for all screen sizes
-- Touch-friendly navigation
+To learn more about Next.js, take a look at the following resources:
 
-### Performance
-- Next.js 15 with App Router
-- Optimized images and fonts
-- Fast loading times
-- SEO optimized
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Accessibility
-- Semantic HTML structure
-- Proper ARIA labels
-- Keyboard navigation support
-- High contrast ratios
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Modern Development
-- TypeScript for type safety
-- ESLint for code quality
-- Tailwind CSS for styling
-- Component-based architecture
+## Deploy on Vercel
 
-## 📧 Contact
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **Email**: contact@bharatmaliya.com
-- **GitHub**: [github.com/bharatmaliya](https://github.com/bharatmaliya)
-- **LinkedIn**: [linkedin.com/in/bharatmaliya](https://linkedin.com/in/bharatmaliya)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Built with ❤️ by Bharat Maliya using Next.js 15 and Tailwind CSS
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
