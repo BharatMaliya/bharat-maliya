@@ -212,7 +212,7 @@ export function ExperienceSection() {
                         </div>
 
                         <p className="text-neutral-700 mb-6">
-                            Lead developer in the elite R&D team, architecting mission-critical broadcast solutions for the world's premier sporting events. Specializing in rapid development of high-stakes software that powers live broadcasts watched by billions.
+                            Lead developer in the elite R&D team, architecting mission-critical broadcast solutions for the world&apos;s premier sporting events. Specializing in rapid development of high-stakes software that powers live broadcasts watched by billions.
                         </p>
 
                         <div className="space-y-6">
@@ -222,7 +222,7 @@ export function ExperienceSection() {
                                 <div className="space-y-4">
                                     <div className="border-l-4 border-primary-500 pl-4">
                                         <h5 className="font-semibold text-neutral-800">Cricket Field Planning Platform – IPL</h5>
-                                        <p className="text-neutral-600 text-sm mb-2">Delivered in just 10 days for the world's largest cricket league</p>
+                                        <p className="text-neutral-600 text-sm mb-2">Delivered in just 10 days for the world&apos;s largest cricket league</p>
                                         <ul className="text-sm text-neutral-600 space-y-1">
                                             <li>• Empowered cricket experts to strategically plan field positions</li>
                                             <li>• Engineered interface for real-time JioHotstar broadcast graphics</li>
@@ -247,7 +247,7 @@ export function ExperienceSection() {
                                         <ul className="text-sm text-neutral-600 space-y-1">
                                             <li>• Handled $100M+ in virtual player valuations</li>
                                             <li>• Real-time budget tracking for 10 franchises</li>
-                                            <li>• Dual-themed auction UIs for men's/women's auctions</li>
+                                            <li>• Dual-themed auction UIs for men&apos;s/women&apos;s auctions</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -323,9 +323,9 @@ export function ContactSection() {
         <section id="contact" className="py-20 bg-gradient-primary text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-4">Let's Build Something Amazing</h2>
+                    <h2 className="text-4xl font-bold mb-4">Let&apos;s Build Something Amazing</h2>
                     <p className="text-xl opacity-90 max-w-3xl mx-auto">
-                        Ready to bring your ideas to life? Let's discuss how we can work together to create exceptional software solutions.
+                        Ready to bring your ideas to life? Let&apos;s discuss how we can work together to create exceptional software solutions.
                     </p>
                 </div>
 

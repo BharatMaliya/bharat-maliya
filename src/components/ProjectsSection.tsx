@@ -131,7 +131,7 @@ export default function ProjectsSection({ onProjectClick }: ProjectsSectionProps
                             </div>
                         </div>
                         <p className="text-neutral-600 mb-4">
-                            First-ever digital platform for managing player auctions in the world's biggest cricket league, handling millions in transactions.
+                            First-ever digital platform for managing player auctions in the world&apos;s biggest cricket league, handling millions in transactions.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm">Next.js</span>
