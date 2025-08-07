@@ -47,7 +47,7 @@ export default function HeroSection() {
                                 <div className="proud-card p-4 flex items-start gap-3 rounded-xl bg-white/70 backdrop-blur border border-white/30 shadow-md transition-transform hover:scale-105 hover:shadow-xl">
                                     <div>
                                         <h4 className="font-semibold text-transparent bg-gradient-to-r from-primary-500 to-pink-500 bg-clip-text">UIDAI Government partnership</h4>
-                                        <p className="text-neutral-700 text-sm"> <span className="font-semibold text-primary-600">Enterprise grade coding challange platform built with IIT Hyderabad</span> </p>
+                                        <p className="text-neutral-700 text-sm"> <span className="font-semibold text-primary-600">Enterprise grade coding challange platform built with IIIT Hyderabad</span> </p>
                                     </div>
                                 </div>
                             </div>
