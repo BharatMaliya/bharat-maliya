@@ -82,7 +82,7 @@ export default function HeroSection() {
                         <div className="relative">
                             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-8 border-white shadow-xl">
                                 <Image
-                                    src="/images/me/imageone.jpg"
+                                    src="/images/me/imageone.jpeg"
                                     alt="Bharat Maliya - Software Engineer"
                                     width={400}
                                     height={400}

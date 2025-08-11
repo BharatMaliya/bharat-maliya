@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Bharat Maliya Portfolio',
     images: [
       {
-        url: '/images/me/imageone.jpg',
+        url: '/images/me/imageone.jpeg',
         width: 1200,
         height: 630,
         alt: 'Bharat Maliya - Software Engineer',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bharat Maliya - Software Engineer',
     description: 'Engineering Scalable Systems for a Billion+ Viewers',
-    images: ['/images/me/imageone.jpg'],
+    images: ['/images/me/imageone.jpeg'],
   },
   robots: {
     index: true,
