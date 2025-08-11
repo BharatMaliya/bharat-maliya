@@ -24,21 +24,23 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://bharatmaliya.dev'),
+  metadataBase: new URL('https://bharatmaliya.com'),
   alternates: {
     canonical: '/',
   },
+
   openGraph: {
     title: "Bharat Maliya - Software Engineer",
     description: "Engineering Scalable Systems for a Billion+ Viewers. Full-stack developer specializing in high-stakes broadcast technology and AI applications.",
-    url: 'https://bharatmaliya.dev',
+    url: 'https://bharatmaliya.com',
     siteName: 'Bharat Maliya Portfolio',
     images: [
       {
-        url: '/images/me/imageone.jpeg',
+        url: 'https://bharatmaliya.com/images/me/imageone.webp',
         width: 1200,
         height: 630,
         alt: 'Bharat Maliya - Software Engineer',
+        type: 'image/webp',
       },
     ],
     locale: 'en_US',
@@ -48,7 +50,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bharat Maliya - Software Engineer',
     description: 'Engineering Scalable Systems for a Billion+ Viewers',
-    images: ['/images/me/imageone.jpeg'],
+    images: ['https://bharatmaliya.com/images/me/imageone.webp'],
   },
   robots: {
     index: true,
