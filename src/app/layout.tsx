@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Bharat Maliya" }],
   creator: "Bharat Maliya",
   publisher: "Bharat Maliya",
+  icons: {
+    icon: '/bm-ico.jpeg',
+    shortcut: '/bm-ico.jpeg',
+    apple: '/bm-ico.jpeg',
+  },
   formatDetection: {
     email: false,
     address: false,
